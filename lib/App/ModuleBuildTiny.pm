@@ -284,6 +284,11 @@ my %actions = (
 			write_text($filename, $content->{$filename}) if $content->{$filename};
 		}
 	},
+	mint => sub {
+		my @arguments = @_;
+		require App::ModuleBuildTiny::Mint;
+		return App::ModuleBuildTiny::Mint::mint_modulebuildtiny(@arguments);
+	},
 );
 
 sub modulebuildtiny {
