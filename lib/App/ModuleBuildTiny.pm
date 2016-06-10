@@ -346,6 +346,10 @@ A tool to bump the version in your modules.
 
 An alternative tool to bump the version in your modules
 
+=item * L<software-license|App::Software::License>
+
+A tool to generate a license file.
+
 =back
 
 =head2 Similar programs
